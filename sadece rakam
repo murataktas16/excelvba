@@ -1,9 +1,7 @@
 Private Sub TextBox2_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
      Select Case KeyAscii
-            Case 48 To 57 'sıfırdan dokuza kadarki rakamlar
-              'basılan tuş  sayıysa Tuş kodunda bir değişiklik yapma
+            Case 48 To 57
             Case Else
               KeyAscii = 0 
-              'Diğer her tuş basımını iptal et
      End Select
 End Sub
